@@ -17,7 +17,16 @@
     <hr>
     <div class="container">
       <h3><a href="LEARNING.html">learning</a> can take some time</h3>
-
+<button type="button" id="button1">wikipedia (if you want to look up subjects)</button>
+<button type="button" id="button2">math an science</button>
+<script type="text/javascript">
+  document.getElementById('button1').addEventListener('click', function() {
+    window.location.href = 'https://www.wikipedia.org';
+  });
+  document.getElementById('button2').addeventlistener('click', function() {
+    window.location.href = 'math-and-some-science.html'
+  });
+</script>
     </div>
   </body>
 </html>
