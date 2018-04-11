@@ -1,7 +1,15 @@
 body{
-  background-color: #6a6a6a
-};
+  background-color: #6a7b8c;
+}
+
 #calc1{
   height: 100%;
   width: auto;
-};
+  background-color: #223038;
+  border-color: #00000
+}
+
+.operator{
+  background-color: #010101;
+  color: #3c1a1a;
+}
