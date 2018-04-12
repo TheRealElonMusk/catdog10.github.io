@@ -4,8 +4,8 @@ body{
 
 #calc1{
   height: 100%;
-  width: 50%;
-  text-align: center;
+  width: 25%;
+  margin: 0 auto;
   background-color: #223038;
   border-color: #00000
 }
