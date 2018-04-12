@@ -15,6 +15,7 @@
     <form class="timer input" >
       <input type="text" name="timerinput" class="timerInput" >
     </form>
+    <p class="timerInput"></p>
 
     <script>
     var myVar = setInterval(function(){ myTimer() }, 1000);
@@ -26,7 +27,7 @@
         myStopFunction();
     }
 
-    document.querySelector(".timerInput").innerHTML = '00:' + zeroPad(secondlimit,2);
+    document.querySelector(".timerInput").value = '00:' + zeroPad(secondlimit,2);
     secondlimit = secondlimit  - 1;
 
     }
