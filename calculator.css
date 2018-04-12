@@ -12,5 +12,11 @@ body{
 
 
 .numeral{
+  height: 100%
+  width:auto;
   color: #121212;
+}
+.operator{
+  height: 100%;
+  width:auto;
 }
