@@ -26,7 +26,7 @@
         myStopFunction();
     }
 
-    document.getElementById("timerinput").innerHTML = '00:' + zeroPad(secondlimit,2);
+    document.querySelector(".timerInput").innerHTML = '00:' + zeroPad(secondlimit,2);
     secondlimit = secondlimit  - 1;
 
     }
