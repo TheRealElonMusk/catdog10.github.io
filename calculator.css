@@ -10,6 +10,8 @@ body{
 }
 
 .operator{
-  background-color: #010101;
-  color: #3c1a1a;
+    color: #010101;
+}
+.numeral{
+  color: #121212;
 }
