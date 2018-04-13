@@ -1,2 +1,4 @@
 user-agent: googlebot
 disallow: /still%20working%20on%2E%2E%2E
+user-agent: *
+disallow: /still%20working%20on%2E%2E%2E
